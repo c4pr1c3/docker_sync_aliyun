@@ -1,3 +1,6 @@
+docker.io:
+  username: "${DOCKER_USERNAME}"
+  password: "${DOCKER_PASSWORD}"
 registry.cn-hangzhou.aliyuncs.com/cuc-docker-io:
   username: "$ACR_USER"
   password: "$ACR_PASSWORD"

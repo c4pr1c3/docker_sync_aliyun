@@ -28,3 +28,5 @@ jobs:
         env:
           ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
           ACR_USER: "${{ secrets.ACR_USER }}"
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_USERNAME: "${{ secrets.DOCKER_USERNAME }}"
