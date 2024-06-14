@@ -21,6 +21,9 @@ cat <<EOF > auth.yaml
 $BASE_HOST/$ACR_NAMESPACE:
   username: "\$ACR_USER"
   password: "\$ACR_PASSWORD"
+docker.io:
+  username: "\$DOCKER_USERNAME"
+  password: "\$DOCKER_PASSWORD"
 EOF
 
 
