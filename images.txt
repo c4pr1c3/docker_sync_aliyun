@@ -21,7 +21,6 @@ vulfocus/vulfocus:latest
 vulfocus/django-cve_2022_28346:latest
 vulfocus/webmin_cve-2022-0824:latest
 vulfocus/hms-cve_2022_25491:latest
-vulhub/httpd:latest
 vulshare/nginx-php-flag:latest
 vulfocus/laravel-cve_2021_3129:latest
 vulfocus/django-cve_2019_14234:latest
