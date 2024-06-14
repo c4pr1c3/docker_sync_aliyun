@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 BASE_HOST="registry.cn-beijing.aliyuncs.com"
 
-if [[ -z ACR_NAMESPACE ]];then
+if [[ -z $ACR_NAMESPACE ]];then
     ACR_NAMESPACE="cuc-docker-io"
 fi
 
