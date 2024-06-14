@@ -1,0 +1,9 @@
+adminer:latest
+alpine:latest
+archlinux:latest
+bash:latest
+busybox:latest
+debian:latest
+docker:latest
+hello-world:latest
+httpd:latest
