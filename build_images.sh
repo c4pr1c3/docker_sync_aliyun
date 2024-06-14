@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-BASE_HOST="registry.cn-beijing.aliyuncs.com"
+
+if [[ -z $BASE_HOST ]];then
+    BASE_HOST="registry.cn-hangzhou.aliyuncs.com"
+fi
 
 if [[ -z $ACR_NAMESPACE ]];then
     ACR_NAMESPACE="cuc-docker-io"
@@ -15,7 +18,7 @@ done < "images.txt"
 
 
 cat <<EOF > auth.yaml
-registry.cn-beijing.aliyuncs.com/$ACR_NAMESPACE:
+$BASE_HOST/$ACR_NAMESPACE:
   username: "\$ACR_USER"
   password: "\$ACR_PASSWORD"
 EOF

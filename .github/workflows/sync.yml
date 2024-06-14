@@ -16,6 +16,8 @@ jobs:
           cd $GITHUB_WORKSPACE
           chmod +x build_images.sh
           ./build_images.sh
+          cat auth.yaml
+          cat images.yaml
         shell: bash
       - uses: hhyasdf/image-sync-action@v1.1
         with:
