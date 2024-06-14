@@ -14,5 +14,10 @@ while IFS= read -r line; do
 done < "images.txt"
 
 
+cat <<EOF > auth.yaml
+registry.cn-beijing.aliyuncs.com/$ACR_NAMESPACE:
+  username: "\$ACR_USER"
+  password: "\$ACR_PASSWORD"
+EOF
 
 
