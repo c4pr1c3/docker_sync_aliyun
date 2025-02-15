@@ -33,3 +33,4 @@ vulfocus/tomcat-cve_2017_12615:latest
 postgres:16
 vulfocus/wordpress-cve_2016_10033:latest
 vulfocus/weblogic-cve_2019_2725:latest
+ollama/ollama:0.5.9
